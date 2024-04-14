@@ -7,4 +7,7 @@ $oscuro: #200E3A;
 // Titles
 h1 {
     color: $azul-claro;
+    span {
+        color: $oscuro;
+    }
 }

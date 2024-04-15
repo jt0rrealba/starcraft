@@ -1,1 +1,47 @@
 @import "_variables";
+
+.header {
+    background-color: $purpura;
+
+    img {
+        max-width: 160px;
+        height: auto;
+    }
+
+    a {
+        color: $oscuro;
+    }
+
+    .redes-sociales {
+        margin: 0 0 0 auto;
+        .nav-item {
+            font-size: 20px;
+        }
+    }
+
+    .nav-item {
+        font-size: 16px;
+        font-family: $montserrat;
+    }
+
+    .nav-link:focus, 
+    .nav-link:hover {
+        color: $azul-claro-hover;
+    }
+}
+
+@media (max-width: 991px) {
+    .header {
+        .navbar-nav {
+            text-align: center;
+        }
+    }
+    .redes-sociales {
+        flex-direction: row;
+        gap: 18px;
+        justify-content: center;
+        .nav-item {
+            font-size: 24px;
+        }
+    }
+}

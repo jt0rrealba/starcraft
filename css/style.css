@@ -1,4 +1,42 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap");
+.header {
+  background-color: #38419D;
+}
+.header img {
+  max-width: 160px;
+  height: auto;
+}
+.header a {
+  color: #030927;
+}
+.header .redes-sociales {
+  margin: 0 0 0 auto;
+}
+.header .redes-sociales .nav-item {
+  font-size: 20px;
+}
+.header .nav-item {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.header .nav-link:focus,
+.header .nav-link:hover {
+  color: rgba(82, 205, 209, 0.6901960784);
+}
+
+@media (max-width: 991px) {
+  .header .navbar-nav {
+    text-align: center;
+  }
+  .redes-sociales {
+    flex-direction: row;
+    gap: 18px;
+    justify-content: center;
+  }
+  .redes-sociales .nav-item {
+    font-size: 24px;
+  }
+}
 h1,
 h2,
 h3,
@@ -18,5 +56,5 @@ img {
 }
 
 body {
-  background-color: #161A30;
+  background-color: #030927;
 }/*# sourceMappingURL=style.css.map */

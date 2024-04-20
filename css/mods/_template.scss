@@ -20,4 +20,21 @@ img {
 
 body {
     background-color: $oscuro;
+    font-family: $montserrat;
+}
+
+.button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $montserrat;
+    background-color: $azul-claro;
+    color: $oscuro;
+    padding: 8px 22px;
+    border: solid 1px $blanco-oscuro;
+    transition: background-color .3s ease;
+}
+.button:hover {
+    background-color: $azul-claro-hover;
+    color: $oscuro;
 }

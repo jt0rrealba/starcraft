@@ -1,1 +1,69 @@
 @import "_variables";
+
+.hero-proPlayers {
+    background-image: url(../assets/img-sc-044.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+}
+@media (min-width: 991px) {
+    .hero-proPlayers {
+        background-image: url(../assets/img-sc-043.jpg);
+    }
+}
+.hero-proPlayers__text {
+    h1 {
+        font-size: 22px;
+        color: $blanco-oscuro;
+        letter-spacing: 5px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 620px;
+        text-transform: uppercase;
+    }
+    span {
+        color: $azul-claro;
+        font-size: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+}
+.main__poproPlayers {
+    .main__top {
+        background-image: url(../assets/img-sc-045.jpg);
+        background-position: center right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 32px 20px;
+        .main__top-uno {
+            h3 {
+                color: $blanco-oscuro;
+                font-size: 14px;
+                letter-spacing: 1px;
+                span {
+                    color: $azul-claro;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+@media (min-width: 768px) {
+    .main__poproPlayers {
+        .main__top {
+            background-image: url(../assets/img-sc-046.jpg);
+            padding: 52px 32px;
+            .main__top-uno {
+                h3 {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    span {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+}

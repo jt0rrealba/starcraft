@@ -257,7 +257,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 320px;
+  height: 360px;
   padding: 32px 0;
 }
 .multimedia .multimedia__text {
@@ -280,12 +280,6 @@ body {
   letter-spacing: 2px;
 }
 
-@media (max-width: 991px) {
-  .multimedia {
-    max-width: 90%;
-    margin: 0 auto;
-  }
-}
 @media (min-width: 991px) {
   .multimedia {
     background-image: url(../assets/img-sc-007.jpg);

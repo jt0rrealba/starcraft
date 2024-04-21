@@ -11,7 +11,7 @@
 <body>
     
     <!-- Barra de navegación -->
-    <header class="header container-lg rounded mt-4">
+    <header class="header container-lg rounded mt-4 sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -64,9 +64,48 @@
       <div class="text__content">
         <h1><span>EL DEFINITIVO</span>JUEGO DE ESTRATEGIA EN TIEMPO REAL</h1>
       </div>
-      <a class="button rounded" href="https://starcraft2.blizzard.com/es-es/" target="_blank">Jugar Ahora</a>
+      <a class="button rounded" href="https://starcraft2.blizzard.com/es-es/" target="_blank" role='button' type='button'>Jugar Ahora</a>
     </section>
     <!-- Fin Hero -->
+
+    <!-- Razas -->
+    <section class="razas">
+        <h2><span>Razas</span>Tres razas que luchan entre si por el control de universo</h2>
+        <div class="razas__grid container-lg">
+          <a href="pages/razas.html#terrans" role='button' type='button'>
+            <div class="razas__item rounded">
+              <img src="assets/img-sc-003.jpg" alt="Imagen StarCraft" loading="lazy" width="200" height="200">
+              <div class="razas__text">
+                <h3>Terran</h3>
+                <p>Descendientes del Largo Sueño y, por lo tanto, a los humanos que viven en el Sector Koprulu.</p>
+              </div>
+            </div>
+          </a><!-- Fin Item -->
+          
+          <a href="pages/razas.html#protoss" role='button' type='button'>
+            <div class="razas__item rounded">
+              <img src="assets/img-sc-004.jpg" alt="Imagen StarCraft" loading="lazy" width="200" height="200">
+              <div class="razas__text">
+                <h3>Protoss</h3>
+                <p>Raza ancestral tecnológicamente avanzada que se caracteriza por sus poderes psiónicos.</p>
+              </div>
+            </div>
+          </a><!-- Fin Item -->
+
+          <a href="pages/razas.html#zergs" role='button' type='button'>
+            <div class="razas__item rounded">
+              <img src="assets/img-sc-005.jpg" alt="Imagen StarCraft" loading="lazy" width="200" height="200">
+              <div class="razas__text">
+                <h3>Zerg</h3>
+                <p>Descendientes del Largo Sueño y, por lo tanto, a los humanos que viven en el Sector Koprulu.</p>
+              </div>
+            </div>
+          </a><!-- Fin Item -->
+        </div>
+       
+    </section>
+    <!-- Fin Razas -->
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>

@@ -10,7 +10,7 @@
         left: 0; 
         width: 100%; 
         height: 100%;
-        transform: scale(1.8);
+        transform: scale(1.9);
     }
     .text__content {
         position: relative;
@@ -45,11 +45,20 @@
 }
 @media (min-width: 991px) {
     .hero {
-        height: 420px;
+        height: 520px;
+        iframe {
+            transform: scale(1.4);
+        }
 
         .text__content {
             margin: 80px auto 0;
         }
     }
-    
+}
+@media (min-width: 1380px) {
+    .hero {
+        iframe {
+            transform: scale(1.5);
+        }
+    }
 }

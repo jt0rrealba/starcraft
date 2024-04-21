@@ -32,6 +32,7 @@ body {
   padding: 8px 22px;
   border: solid 1px #d4d4d4;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -101,7 +102,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: scale(1.8);
+  transform: scale(1.9);
 }
 .hero .text__content {
   position: relative;
@@ -135,9 +136,94 @@ body {
 }
 @media (min-width: 991px) {
   .hero {
-    height: 420px;
+    height: 520px;
+  }
+  .hero iframe {
+    transform: scale(1.4);
   }
   .hero .text__content {
     margin: 80px auto 0;
+  }
+}
+@media (min-width: 1380px) {
+  .hero iframe {
+    transform: scale(1.5);
+  }
+}
+.razas {
+  background-image: url(../assets/img-sc-002.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10% 0;
+}
+.razas h2 {
+  font-size: 22px;
+  color: #d4d4d4;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #030927;
+  text-align: center;
+  margin: 0 auto 44px;
+  padding: 0 20px;
+  max-width: 620px;
+}
+.razas span {
+  color: #52D3D8;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 2px;
+}
+.razas .razas__grid {
+  display: grid;
+  gap: 32px;
+  padding: 0 32px;
+}
+.razas .razas__item {
+  position: relative;
+  overflow: hidden;
+}
+.razas a {
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.razas a:hover {
+  transform: scale(1.05);
+}
+.razas .razas__text {
+  width: 100%;
+  position: absolute;
+  bottom: 36px;
+  text-align: center;
+  padding: 0 20px;
+}
+.razas .razas__text h3 {
+  color: #d4d4d4;
+  font-size: 28px;
+  text-shadow: #030927 2px 2px 2px;
+  letter-spacing: 4px;
+}
+.razas .razas__text p {
+  margin: 0;
+  color: #d4d4d4;
+  font-size: 16px;
+  text-shadow: #030927 2px 2px 2px;
+}
+.razas img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .razas .razas__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .razas h2 {
+    margin: 0 auto 64px;
+  }
+}
+@media (min-width: 991px) {
+  .razas .razas__grid {
+    padding: 0;
   }
 }/*# sourceMappingURL=style.css.map */

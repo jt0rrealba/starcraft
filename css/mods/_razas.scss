@@ -1,0 +1,82 @@
+@import "_variables";
+
+.razas {
+    background-image: url(../assets/img-sc-002.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10% 0;
+    h2 {
+        font-size: 22px;
+        color: #d4d4d4;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px #030927;
+        text-align: center;
+        margin: 0 auto 44px;
+        padding: 0 20px;
+        max-width: 620px;
+    }
+    span {
+        color: $azul-claro;
+        font-size: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+    .razas__grid {
+        display: grid;
+        gap: 32px;
+        padding: 0 32px;
+    }
+    .razas__item {
+        position: relative;
+        overflow: hidden;
+    }
+    a {
+        text-decoration: none;
+        cursor: pointer;
+        transition: transform .3s ease;
+    }
+    a:hover {
+        transform: scale(1.05);
+    }
+    .razas__text {
+        width: 100%;
+        position: absolute;
+        bottom: 36px;
+        text-align: center;
+        padding: 0 20px;
+        h3 {
+            color: $blanco-oscuro;
+            font-size: 28px;
+            text-shadow: #030927 2px 2px 2px;
+            letter-spacing: 4px;
+        }
+        p {
+            margin: 0;
+            color: $blanco-oscuro;
+            font-size: 16px;
+            text-shadow: #030927 2px 2px 2px;
+        }
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 768px) {
+    .razas {
+        .razas__grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+        h2 {
+            margin: 0 auto 64px;
+        }
+    }
+}
+@media (min-width: 991px) {
+    .razas {
+        .razas__grid {
+            padding: 0;
+        }
+    }
+}

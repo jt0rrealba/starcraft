@@ -1,0 +1,169 @@
+@import "_variables";
+
+.hero-juego {
+    padding: 20% 0;
+    background-image: url(../assets/img-sc-015.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .hero-juego__container {
+        padding: 0 20px;
+    }
+    .hero-juego__text {
+        h1 {
+            font-size: 28px;
+            color: #d4d4d4;
+            letter-spacing: 5px;
+            text-shadow: 2px 2px 2px #030927;
+            text-align: center;
+            margin: 0 auto 18px;
+            padding: 0 20px;
+            max-width: 620px;
+            span {
+                color: $azul-claro;
+                font-size: 18px;
+                display: block;
+                letter-spacing: 2px;
+            }
+        }
+        p {
+            text-align: center;
+            font-size: 16px;
+            color: $blanco-oscuro;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+    }
+    h2 {
+        font-size: 22px;
+        color: #d4d4d4;
+        letter-spacing: 5px;
+        text-align: center;
+        margin: 0 auto 24px;
+        padding: 0 20px;
+        max-width: 620px;
+        text-shadow: 2px 2px 2px #030927;
+        span {
+            color: $azul-claro;
+            font-size: 15px;
+            display: block;
+            letter-spacing: 2px;
+        }
+    }
+    .hero-juego__grid {
+        display: grid;
+        gap: 22px;
+        img {
+            width: 100%;
+            height: auto;
+            max-width: 280px;
+            margin: 0 auto;
+            box-shadow: 2px 2px 2px #030927;
+        }
+        h3 {
+            text-align: center;
+            padding: 10px 0;
+            letter-spacing: 2px;
+            font-size: 22px;
+            color: $azul-claro;
+            text-shadow: 2px 2px 2px #030927;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .hero-juego {
+        padding: 10% 0;
+        .hero-juego__grid {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+@media (min-width: 992px) {
+    .hero-juego {
+        padding: 5% 0;
+    }
+}
+
+.pasos-juego {
+    h2 {
+        font-size: 22px;
+        color: #d4d4d4;
+        letter-spacing: 5px;
+        text-align: center;
+        margin: 0 auto 24px;
+        padding: 0 20px;
+        max-width: 620px;
+        span {
+            color: $azul-claro;
+            font-size: 15px;
+            display: block;
+            letter-spacing: 2px;
+        }
+    }
+    .pasos-juego__grid {
+        display: grid;
+        gap: 22px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .pasos-juego__text {
+        text-align: center;
+        h3 {
+            color: $blanco-oscuro;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        p {
+            color: $blanco-oscuro;
+            font-size: 16px;
+        }
+    }
+}
+@media (min-width: 992px) {
+    .pasos-juego {
+        .pasos-juego__grid {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+        .pasos-juego__text {
+            text-align: start;
+        }
+        .pasos__order {
+            order: -1;
+        }
+    }
+}
+.descarga-juego {
+    background-image: url(../assets/img-sc-023.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 360px;
+    padding: 32px 0;
+    .descarga-juego__text {
+        text-align: center;
+    }
+    h2 {
+        font-size: 22px;
+        color: #d4d4d4;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px #030927;
+        text-align: center;
+        margin: 0 auto 24px;
+        padding: 0 20px;
+        max-width: 620px;
+    }
+    span {
+        color: $azul-claro;
+        font-size: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+}
+@media (min-width: 991px) {
+    .descarga-juego {
+        background-image: url(../assets/img-sc-022.jpg);
+    } 
+}

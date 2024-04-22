@@ -1,0 +1,75 @@
+@import "_variables";
+
+.hero-multimedia {
+    background-image: url(../assets/img-sc-051.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    h1 {
+        font-size: 22px;
+        color: $blanco-oscuro;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px #030927;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 620px;
+        text-transform: uppercase;
+    }
+    span {
+        color: $azul-claro;
+        font-size: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+    p {
+        color: $blanco-oscuro;
+        text-align: center;
+        font-size: 16px;
+        max-width: 720px;
+        padding: 0 20px;
+        margin: 22px auto 0;
+        text-shadow: 2px 2px 2px #030927;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 991px) {
+    .hero-multimedia {
+        padding: 80px 0;
+    } 
+}
+@media (min-width: 1540px) {
+    .hero-multimedia {
+        padding: 120px 0;
+    } 
+}
+.galeria__title {
+    h2 {
+        font-size: 20px;
+        color: $blanco-oscuro;
+        letter-spacing: 5px;
+        text-shadow: 2px 2px 2px #030927;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 20px;
+        max-width: 620px;
+        text-transform: uppercase;
+    }
+    span {
+        color: $azul-claro;
+        font-size: 15px;
+        display: block;
+        letter-spacing: 2px;
+    }
+}
+.galeria-multimedia {
+    margin: 32px auto;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

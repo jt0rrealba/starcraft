@@ -726,4 +726,77 @@ body {
   .main__poproPlayers .main__top .main__top-uno h3 span {
     font-size: 22px;
   }
+}
+.hero-multimedia {
+  background-image: url(../assets/img-sc-051.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+.hero-multimedia h1 {
+  font-size: 22px;
+  color: #d4d4d4;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #030927;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 620px;
+  text-transform: uppercase;
+}
+.hero-multimedia span {
+  color: #52D3D8;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 2px;
+}
+.hero-multimedia p {
+  color: #d4d4d4;
+  text-align: center;
+  font-size: 16px;
+  max-width: 720px;
+  padding: 0 20px;
+  margin: 22px auto 0;
+  text-shadow: 2px 2px 2px #030927;
+}
+.hero-multimedia img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 991px) {
+  .hero-multimedia {
+    padding: 80px 0;
+  }
+}
+@media (min-width: 1540px) {
+  .hero-multimedia {
+    padding: 120px 0;
+  }
+}
+.galeria__title h2 {
+  font-size: 20px;
+  color: #d4d4d4;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #030927;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 620px;
+  text-transform: uppercase;
+}
+.galeria__title span {
+  color: #52D3D8;
+  font-size: 15px;
+  display: block;
+  letter-spacing: 2px;
+}
+
+.galeria-multimedia {
+  margin: 32px auto;
+}
+.galeria-multimedia img {
+  width: 100%;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */

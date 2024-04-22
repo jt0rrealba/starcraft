@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página informativa de StarCraft">
+    <meta name="keywords" content="StarCraft, Juego de estratégia, Protoss, Zerg, Terran">
+    <meta name="author" content="Juan Torrealba">
+    <link rel="icon" type="image/x-icon" href="../assets/img-sc-001.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -63,8 +68,8 @@
     </div>
     <!-- Fin Pro Players -->
 
-    <main class="main__poproPlayers container-lg mt-5">
-      <div class="main__top rounded">
+    <main class="main__poproPlayers container-lg mt-5" >
+      <div class="main__top rounded" data-aos="fade-up">
         <div class="main__top-uno">
           <h3>Posición: <span>#1</span></h3>
           <h3>Nik: <span>Serral</span></h3>
@@ -72,7 +77,7 @@
           <h3>País: 🇫🇮</h3>
         </div>
       </div>
-      <table class="table table-dark rounded mt-3">
+      <table class="table table-dark rounded mt-3" data-aos="flip-left">
         <thead>
           <tr>
             <th scope="col">#</th>
@@ -250,6 +255,10 @@
     <!-- Fin Footer -->
 
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
